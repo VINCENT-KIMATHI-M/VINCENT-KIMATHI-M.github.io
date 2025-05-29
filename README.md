@@ -1,1 +1,1 @@
-# Vincent Kimathi M portfolio Websiite
+# Vincent Kimathi M Portfolio Website
