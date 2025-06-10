@@ -3,7 +3,7 @@ title: Vincent Kimathi M | Portfolio
 email: vkim098@gmail.com
 description: "Professional portfolio showcasing my academic background, projects, and technical challenges"
 baseurl: ""
-url: "https://yourusername.github.io" # Replace with your GitHub username
+url: "https://vincent-kimathi-m.github.io/" # Replace with your GitHub username
 
 # Build settings
 theme: jekyll-theme-primer # Use GitHub's default theme temporarily
