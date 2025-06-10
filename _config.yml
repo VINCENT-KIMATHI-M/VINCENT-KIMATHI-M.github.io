@@ -1,54 +1,19 @@
-# _config.yml
+# Minimal configuration that will work with GitHub Pages
 title: Vincent Kimathi M | Portfolio
 email: vkim098@gmail.com
 description: "Professional portfolio showcasing my academic background, projects, and technical challenges"
 baseurl: ""
-url: "https://yourdomain.com" # Replace with your actual domain
-
-# Appearance
-minimal_mistakes_skin: "dark" # More professional look
-search: true
+url: "https://yourusername.github.io" # Replace with your GitHub username
 
 # Build settings
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes@4.24.0  # Last version compatible with Jekyll 3.x
-# plugins:
- # - jekyll-paginate
-#  - jekyll-sitemap
- # - jekyll-feed
- # - jemoji
-
-# Navigation
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
-# Author information
-author:
-  name: "Vincent Kimathi M"
-  avatar: "/assets/images/bio-photo.jpg"
-  bio: "Computer Scientist | Cybersecurity Enthusiast | Problem Solver"
-  location: "Nairobi, Kenya"
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/yourprofile"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/yourusername"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:vkim098@gmail.com"
+theme: jekyll-theme-primer # Use GitHub's default theme temporarily
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
 
 # Collections
 collections:
   projects:
     output: true
-    permalink: /projects/:path/
   lab_challenges:
     output: true
-    permalink: /lab-challenges/:path/
