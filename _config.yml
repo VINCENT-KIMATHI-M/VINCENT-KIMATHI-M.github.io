@@ -12,11 +12,11 @@ search: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes@4.24.0  # Last version compatible with Jekyll 3.x
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-feed
-  - jemoji
+# plugins:
+ # - jekyll-paginate
+#  - jekyll-sitemap
+ # - jekyll-feed
+ # - jemoji
 
 # Navigation
 defaults:
