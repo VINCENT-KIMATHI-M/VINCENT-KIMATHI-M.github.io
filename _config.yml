@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Vinncent Kimathi M
+title: Vincent Kimathi M
 email: vkim098@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -88,10 +88,10 @@ footer:
 #      url: "https://instagram.com/"
 
 defaults:
-  # _posts
+  # _Home
   - scope:
       path: ""
-      type: posts
+      type: Home
     values:
       layout: single
       author_profile: true
@@ -99,7 +99,7 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+  # _pages 
   - scope:
       path: "_pages"
       type: pages
